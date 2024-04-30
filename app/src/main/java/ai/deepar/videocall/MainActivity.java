@@ -409,7 +409,7 @@ public class MainActivity extends AppCompatActivity implements AREventListener {
 
     private void initializeEngine() {
         try {
-            mRtcEngine = RtcEngine.create(getBaseContext(), "your_agora_app_id_here", mRtcEventHandler);
+            mRtcEngine = RtcEngine.create(getBaseContext(), f92ffec041ef4ce7b13d6ea0d8ccd5f2, mRtcEventHandler);
         } catch (Exception e) {
             Log.e(TAG, Log.getStackTraceString(e));
             throw new RuntimeException("NEED TO check rtc sdk init fatal error\n" + Log.getStackTraceString(e));
