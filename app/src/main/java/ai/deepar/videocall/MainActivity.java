@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity implements AREventListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         deepAR = new DeepAR(this);
-        deepAR.setLicenseKey("your_license_key_goes_here");
+        deepAR.setLicenseKey(fa7fdfce0c991e18e66f89a641a4c38eba5fdb8de44dbe3ea48a6c398b52a655a6da1dcec0e7e56e);
         deepAR.initialize(this, this);
         setContentView(R.layout.activity_main);
         callInProgress = false;
